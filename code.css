@@ -1,0 +1,24 @@
+@-moz-document domain("chess.com") {
+    /* White's pieces */
+    .piece.wp { background-image: url("https://bibix335.github.io/For-Stylish-extension/wp.png") !important; } /* White pawn */
+    .piece.wn { background-image: url("https://bibix335.github.io/For-Stylish-extension/wn.png") !important; } /* White knight */
+    .piece.wb { background-image: url("https://bibix335.github.io/For-Stylish-extension/wb.png") !important; } /* White bishop */
+    .piece.wr { background-image: url("https://bibix335.github.io/For-Stylish-extension/wr.png") !important; } /* White rook */
+    .piece.wq { background-image: url("https://bibix335.github.io/For-Stylish-extension/wq.png") !important; } /* White queen */
+    .piece.wk { background-image: url("https://bibix335.github.io/For-Stylish-extension/wk.png") !important; } /* White king */
+
+    /* Black's pieces */
+    .piece.bp { background-image: url("https://bibix335.github.io/For-Stylish-extension/bp.png") !important; } /* Black pawn */
+    .piece.bn { background-image: url("https://bibix335.github.io/For-Stylish-extension/bn.png") !important; } /* Black knight */
+    .piece.bb { background-image: url("https://bibix335.github.io/For-Stylish-extension/bb.png") !important; } /* Black bishop */
+    .piece.br { background-image: url("https://bibix335.github.io/For-Stylish-extension/br.png") !important; } /* Black rook */
+    .piece.bq { background-image: url("https://bibix335.github.io/For-Stylish-extension/bq.png") !important; } /* Black queen */
+    .piece.bk { background-image: url("https://bibix335.github.io/For-Stylish-extension/bk.png") !important; } /* Black king */
+
+    /* Rules */
+    .piece {
+        background-size: 100% 100% !important;
+        background-position: center !important;
+        background-repeat: no-repeat !important;
+    }
+}
